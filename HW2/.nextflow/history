@@ -1,0 +1,8 @@
+2026-04-21 15:16:53	-	dreamy_woese	-	f579976675a73bf2c249bd04210f8eac	07f96049-4e6e-499c-819e-75ce1ab8d11f	nextflow run main.nf
+2026-04-21 15:25:45	-	chaotic_pare	-	b154ae42e17a58ddf5b89eba4eb288ee	d04f3d32-9da5-4f92-bd26-511f404d84a4	nextflow run main.nf
+2026-04-21 15:33:33	14s	goofy_shirley	ERR	a1c3005994e9f945e2b8b1ca15cbe5f5	11674cc2-f3c8-4df6-9781-0c21be0e43b9	nextflow run main.nf
+2026-04-21 15:40:37	7.8s	golden_wing	ERR	a1c3005994e9f945e2b8b1ca15cbe5f5	d343c573-781c-4dbb-b251-d8906d1f3b85	nextflow run main.nf
+2026-04-21 15:44:25	40.5s	loving_golick	ERR	a1c3005994e9f945e2b8b1ca15cbe5f5	5890133c-e7a2-46c9-8253-f4049b760af0	nextflow run main.nf
+2026-04-21 17:33:11	33m 16s	big_raman	ERR	a1c3005994e9f945e2b8b1ca15cbe5f5	1b69733f-718a-40df-aad8-852d995e2eb5	nextflow run main.nf
+2026-04-22 11:35:59	35m 47s	furious_wozniak	ERR	a1c3005994e9f945e2b8b1ca15cbe5f5	1b69733f-718a-40df-aad8-852d995e2eb5	nextflow run main.nf -resume
+2026-04-22 12:16:41	31.2s	cheeky_sammet	OK	a1c3005994e9f945e2b8b1ca15cbe5f5	1b69733f-718a-40df-aad8-852d995e2eb5	nextflow run main.nf -resume
