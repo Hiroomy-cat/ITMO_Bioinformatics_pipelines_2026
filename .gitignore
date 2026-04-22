@@ -1,0 +1,12 @@
+# big bio files
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+
+# nextflow
+work/
+results/
+
+# misc
+*.log
