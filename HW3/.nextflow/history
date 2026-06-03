@@ -1,0 +1,1 @@
+2026-06-04 01:45:14	1h 6m 48s	wise_gauss	OK	e3408a0da40e3ee42e5a30af3d12cf68	fedb1cb7-6d56-4fa1-9540-5cedc4fee8fd	nextflow run main.nf -profile container --accession DRR030302 -resume

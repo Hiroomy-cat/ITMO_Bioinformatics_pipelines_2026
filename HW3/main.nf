@@ -1,6 +1,7 @@
 nextflow.enable.dsl=2
 
-include { DOWNLOAD_SRA; FASTP; SPADES; MAPPING; PLOT_COVERAGE; VARIANT_CALLING } from './modules/processes.nf'
+include { DOWNLOAD_SRA; FASTP; SPADES; MAPPING; PLOT_COVERAGE } from './modules/processes.nf'
+include { BCFTOOLS_CALL } from './modules/bcftools/main.nf'
 include { FASTQC as FASTQC_RAW } from './modules/processes.nf'
 include { FASTQC as FASTQC_TRIM } from './modules/processes.nf'
 
@@ -28,7 +29,7 @@ workflow {
 
     ch_plot = PLOT_COVERAGE(ch_bam)
 
-    ch_vcf = VARIANT_CALLING(ch_ref, ch_bam)
+    ch_vcf = BCFTOOLS_CALL(ch_ref, ch_bam)
 
     publish:
     raw_qc      = ch_raw_qc

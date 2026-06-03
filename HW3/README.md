@@ -1,3 +1,11 @@
+## Update (Homework 3 Improvement)
+
+Variant calling was updated to use `bcftools` as an external module instead of a custom implementation. This follows best practices for reproducible and modular pipeline design.
+------------------------------------------------------------------
+
+
+
+
 # Bioinformatics Pipeline (Homework 3)
 
 This repository contains an automated \*\*Nextflow pipeline\*\* for processing sequencing data from raw reads to variant calling and coverage visualization.

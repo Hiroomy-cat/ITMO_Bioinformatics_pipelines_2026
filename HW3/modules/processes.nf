@@ -68,19 +68,6 @@ process MAPPING {
     """
 }
 
-process VARIANT_CALLING {
-    tag "$bam"
-    input:
-    path ref
-    path bam
-    output:
-    path "${bam.simpleName}.vcf"
-    script:
-    """
-    bcftools mpileup -f $ref $bam | \
-    bcftools call -mv -Ov -o ${bam.simpleName}.vcf
-    """
-}
 
 process PLOT_COVERAGE {
     tag "Plotting"
