@@ -1,0 +1,4 @@
+sample_id,group,reads_1,reads_2
+sample1,virus,data/sample1_1.fastq.gz,data/sample1_2.fastq.gz
+sample2,virus,data/sample2_1.fastq.gz,data/sample2_2.fastq.gz
+sample3,bacteria,data/sample3_1.fastq.gz,data/sample3_2.fastq.gz

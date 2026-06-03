@@ -1,0 +1,14 @@
+name: bioinfo
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bwa
+  - samtools
+  - bcftools
+  - fastqc
+  - fastp
+  - spades
+  - matplotlib
+  - pandas
+  - sra-tools
